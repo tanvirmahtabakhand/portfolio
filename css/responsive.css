@@ -1,0 +1,1473 @@
+/* ---------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------media queries-------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) and (max-width:1280px) {
+
+  .pricing-table-row {
+    padding: 10px 0 30px;
+    display: block;
+    width: 100%;
+  }
+
+  .pricing-table-row .basic-plan,
+  .pricing-table-row .professional-plan,
+  .pricing-table-row .premium-plan {
+    padding: 0px 22px 100px;
+    width: 50%;
+    margin: auto;
+    margin-top: 74px;
+  }
+
+  .pricing-table-row .premium-plan .plan-logo,
+  .pricing-table-row .professional-plan .plan-logo,
+  .pricing-table-row .basic-plan .plan-logo {
+    width: 60px;
+    height: 60px;
+    top: -28px;
+    left: 0px;
+  }
+
+
+
+
+
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) and (max-width:1024px) {
+
+  /* .social-icons {
+    height: 100%;
+      padding: 3% 0px;
+    } */
+
+
+
+  .name-block {
+    padding: 145px 100px;
+  }
+
+  .indivisual-icon .num {
+    font-size: 28px;
+  }
+
+  .indivisual-icon h4 {
+    font-size: 14px;
+  }
+
+  .grid-col {
+    grid-gap: 18px;
+    grid-template-rows: repeat(2, 166px);
+  }
+
+  .service-wrap h3 {
+    font-size: 18px;
+  }
+
+  .service-wrap p {
+    font-size: 14px;
+  }
+
+
+  .timeline:before {
+
+    height: 96%;
+  }
+
+  .timeline-content h2 {
+    font-size: 19px;
+  }
+
+  
+
+  .pricing-table-row {
+    padding: 10px 0 30px;
+    display: block;
+    width: 100%;
+  }
+
+  .pricing-table-row .basic-plan,
+  .pricing-table-row .professional-plan,
+  .pricing-table-row .premium-plan {
+    padding: 0px 30px 100px;
+    width: 48%;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .pricing-table-row .premium-plan .plan-logo,
+  .pricing-table-row .professional-plan .plan-logo,
+  .pricing-table-row .basic-plan .plan-logo {
+    width: 60px;
+    height: 60px;
+    top: -32px;
+    left: 0px;
+  }
+
+  .pricing-table-row .professional-plan .plan-logo i,
+  .pricing-table-row .basic-plan .plan-logo i,
+  .pricing-table-row .premium-plan .plan-logo i {
+    font-size: 22px;
+  }
+
+  .form {
+    text-align: center;
+
+  }
+
+  .form-container {
+    display: block;
+  }
+
+  .form-1 {
+    width: 98%;
+    margin-top: 40px;
+  }
+
+  .form-1 h4 {
+    font-size: 14px;
+  }
+
+
+  .form-2 {
+    margin: auto;
+    width: 90%;
+  }
+
+  form button {
+    width: 145px;
+    margin-top: 10px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+
+}
+
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) and (max-width:960px) {
+
+  .col-1-sub-pg {
+   
+    /* max-height: 100vh; */
+    width: 90%;
+    position: initial;
+    z-index: index none;
+    float: none;
+    margin: auto;
+
+  }
+
+  .person-details img {
+    width: 30%;
+  }
+
+  .circle-chart {
+    width: 45%;
+    height: 45%;
+  }
+
+
+  .social-icons {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 10px 0px;
+    position: initial;
+  }
+
+
+  .col-2-sub-pg {
+    /* margin-top: 260px; */
+    width: 100%;
+    background-color: #f0f0f6;
+    float: none;
+  }
+
+  .name-block {
+    text-align: center;
+    padding: 140px 37px;
+  }
+
+  .name-block h1 {
+    font-size: 45px;
+  }
+
+  .name-block p {
+    font-size: 17px;
+  }
+
+  .about-me-block-details {
+    display: block;
+  }
+
+  .block-col-1 {
+    width: 100%;
+  }
+
+  .block-col-2 {
+    width: 100%;
+  }
+
+  .skill-col-1 h3,
+  .skill-col-2 h3 {
+
+    font-size: 15px;
+  }
+
+  .skill-details p {
+    font-size: 20px;
+  }
+
+  .indivisual-icon {
+    color: white;
+    padding-bottom: 35px;
+  }
+
+  .mini-block-col {
+    width: 100%;
+  }
+
+  .about-me-block-person-picture {
+    width: 50%;
+    margin: auto;
+  }
+
+  .about-me-block-person-picture img {
+    width: 75%;
+  }
+
+  .about-me-block-details .buttons {
+    text-align: center;
+  }
+
+  .about-me-block-person-details p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .indivisual-icon h4 {
+    font-size: 15px;
+
+  }
+
+  .indivisual-icon i {
+
+    font-size: 20px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .indivisual-icon .num {
+    font-size: 28px;
+  }
+
+
+  .grid-col {
+    margin: 30px auto;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(3, 185px);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-wrap p {
+    font-size: 19px;
+  }
+
+  .service-wrap i {
+    color: #ff5959;
+    font-size: 23px;
+  }
+
+  .service-wrap p {
+    font-size: 15px;
+  }
+
+  .portfolio {
+    padding: 62px 35px;
+  }
+
+  .projects-filter button {
+    padding: 10px 9px;
+    font-size: 10px;
+  }
+
+  .experience .container {
+
+    padding: 0px 0;
+
+  }
+
+  .container-box {
+    grid-template-rows: repeat(2, 230px);
+    grid-template-columns: repeat(2, 1fr);
+
+
+  }
+
+  .pricing-table-row {
+    padding: 10px 0 30px;
+    display: block;
+    width: 100%;
+  }
+
+  .pricing-table-row .basic-plan,
+  .pricing-table-row .professional-plan,
+  .pricing-table-row .premium-plan {
+    padding: 0px 30px 100px;
+    width: 51%;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .pricing-table-row .premium-plan .plan-logo,
+  .pricing-table-row .professional-plan .plan-logo,
+  .pricing-table-row .basic-plan .plan-logo {
+    width: 60px;
+    height: 60px;
+    top: -32px;
+    left: 0px;
+  }
+
+  .pricing-table-row .professional-plan .plan-logo i,
+  .pricing-table-row .basic-plan .plan-logo i,
+  .pricing-table-row .premium-plan .plan-logo i {
+    font-size: 22px;
+  }
+
+  .clients-testimonial .clients-testimonial-content {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .clients-testimonial .description p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .clients-testimonial-content .info-block h3 {
+    font-size: 17px;
+  }
+
+  .clients-testimonial .post {
+    font-size: 14px;
+  }
+
+
+  .logo .indivisual-icon {
+    color: white;
+    width: 25%;
+    height: 25%;
+
+  }
+
+  .testimonials {
+    padding: 80px 40px;
+  }
+
+  .form {
+    text-align: center;
+
+
+  }
+
+  .form-container {
+    display: block;
+  }
+
+
+  .form-1 {
+    width: 98%;
+    margin-top: 40px;
+  }
+
+  .form-1 h4 {
+    font-size: 14px;
+  }
+
+
+  .form-2 {
+    margin: auto;
+    width: 90%;
+  }
+
+  form button {
+    width: 145px;
+    margin-top: 10px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+
+
+
+}
+
+
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px) and (max-width:640px) {
+
+
+  .col-1-sub-pg {
+    /* max-height: 100vh; */
+    width: 90%;
+    position: initial;
+    z-index: index none;
+    float: none;
+    margin: auto;
+
+  }
+
+  .person-details img {
+    width: 30%;
+  }
+
+  .circle-chart {
+    width: 45%;
+    height: 45%;
+  }
+
+
+  .social-icons {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 10px 0px;
+    position: initial;
+  }
+
+
+  .col-2-sub-pg {
+    /* margin-top: 190px; */
+    width: 100%;
+    background-color: #f0f0f6;
+    float: none;
+  }
+
+  .name-block {
+    text-align: center;
+    padding: 140px 37px;
+  }
+
+  .name-block h1 {
+    font-size: 47px;
+  }
+
+  .name-block p {
+    font-size: 17px;
+  }
+
+  .about-me-block-details {
+    display: block;
+  }
+
+  .block-col-1 {
+    width: 100%;
+  }
+
+  .block-col-2 {
+    width: 100%;
+  }
+
+  .skill-col-1 h3,
+  .skill-col-2 h3 {
+
+    font-size: 12px;
+  }
+
+  .acievements {
+
+    display: block;
+  }
+
+
+  .indivisual-icon {
+    color: white;
+    padding-bottom: 35px;
+  }
+
+  .mini-block-col {
+    width: 100%;
+    display: block;
+  }
+
+  .about-me-block-person-picture {
+    width: 50%;
+    margin: auto;
+  }
+
+  .about-me-block-details .buttons {
+    text-align: center;
+  }
+
+  .indivisual-icon h4 {
+    font-size: 15px;
+
+  }
+
+  .indivisual-icon i {
+
+    font-size: 20px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .indivisual-icon .num {
+    font-size: 28px;
+  }
+
+
+  .grid-col {
+    margin: 30px auto;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(6, 160px);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .portfolio {
+    padding: 62px 35px;
+  }
+
+  .projects-filter button {
+    padding: 10px 9px;
+    font-size: 10px;
+  }
+
+  .experience .container {
+
+    padding: 0px 0;
+
+  }
+
+  .container-box {
+    grid-template-rows: repeat(6, 300px);
+    grid-template-columns: repeat(1, 1fr);
+
+
+  }
+
+  .pricing-table-row {
+    width: 100%;
+    display: initial;
+  }
+
+  .pricing-table-row .basic-plan,
+  .pricing-table-row .professional-plan,
+  .pricing-table-row .premium-plan {
+    padding: 0px 30px 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .pricing-table-row .premium-plan .plan-logo,
+  .pricing-table-row .professional-plan .plan-logo,
+  .pricing-table-row .basic-plan .plan-logo {
+    width: 60px;
+    height: 60px;
+    top: -32px;
+    left: 0px;
+  }
+
+  .pricing-table-row .professional-plan .plan-logo i,
+  .pricing-table-row .basic-plan .plan-logo i,
+  .pricing-table-row .premium-plan .plan-logo i {
+    font-size: 22px;
+  }
+
+  .logo .indivisual-icon {
+    color: white;
+    width: 25%;
+    height: 25%;
+
+  }
+
+  .testimonials {
+    padding: 80px 40px;
+  }
+
+  .form {
+    text-align: center;
+
+
+  }
+
+  .form-container {
+    display: block;
+  }
+
+  .form-1 {
+    width: 98%;
+    margin-top: 40px;
+  }
+
+  .form-1 h4 {
+    font-size: 14px;
+  }
+
+
+  .form-2 {
+    margin: auto;
+    width: 90%;
+  }
+
+  form button {
+    width: 145px;
+    margin-top: 10px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  
+
+
+
+
+}
+
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px) and (max-width:480px) {
+
+  .col-1-sub-pg {
+    /* max-height: 100vh; */
+    width: 90%;
+    position: initial;
+    z-index: index none;
+    float: none;
+    margin: auto;
+
+  }
+
+  .person-details img {
+    width: 30%;
+  }
+
+  .circle-chart {
+    width: 45%;
+    height: 45%;
+  }
+
+
+  .social-icons {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 10px 0px;
+    position: initial;
+  }
+
+
+  .col-2-sub-pg {
+    /* margin-top: 120px; */
+    width: 100%;
+    background-color: #f0f0f6;
+    float: none;
+  }
+
+  .name-block .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .name-block {
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  .name-block h1 {
+    font-size: 30px;
+  }
+
+  .name-block p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .name-block .buttons .btn-block {
+    width: 160px;
+    height: 44px;
+    font-size: 15px;
+    padding: 13px 0px;}
+
+  .about-me-block-details {
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .block-col-1 {
+    width: 100%;
+  }
+
+  .block-col-2 {
+    width: 100%;
+  }
+
+  .skill-col-1 h3,
+  .skill-col-2 h3 {
+
+    font-size: 12px;
+  }
+
+  .acievements {
+
+    display: block;
+  }
+
+
+  .indivisual-icon {
+    color: white;
+    padding-bottom: 35px;
+  }
+
+  .mini-block-col {
+    width: 100%;
+    display: block;
+  }
+
+  .about-me-block-person-picture {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-me-block-details .buttons {
+    text-align: center;
+  }
+
+  .about-me-block {
+    padding: 40px 40px;
+  }
+
+  .about-me-block-person-details p {
+    font-size: 14px;
+    padding: 20px 0 20px;
+    text-align: justify;
+    line-height: 21px;
+    word-spacing: 3px;
+  }
+
+  .block-col-2 .Li1,
+  .block-col-1 .Li1 {
+
+    font-size: 11px;
+  }
+
+  .block-col-2 .Li2,
+  .block-col-1 .Li2 {
+
+font-size: 12px;
+
+}
+
+  .about-me-block-details .buttons .btn-block {
+    width: 143px;
+    height: 45px;
+    font-size: 14px;
+    padding: 15px 0px;
+    margin-top: 12px;
+  }
+
+  .skill-details p {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .skill-block {
+    padding: 70px 40px;
+  }
+
+  .skill-col {
+    width: 100%;
+    margin: 24px auto;
+    display: block;
+  }
+
+  .skill-col-1,
+  .skill-col-2 {
+    width: 100%;
+    margin-bottom: 33px;
+  }
+
+  .services {
+    padding: 50px 35px;
+  }
+
+  .indivisual-icon h4 {
+    font-size: 15px;
+
+  }
+
+  .indivisual-icon i {
+
+    font-size: 20px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .indivisual-icon .num {
+    font-size: 28px;
+  }
+
+
+
+  .grid-col {
+    margin: 30px auto;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(6, 184px);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-wrap h3 {
+    font-size: 16px;
+  }
+
+  .service-wrap p {
+    font-size: 13px;
+  }
+
+  .experience {
+    padding: 50px 20px;
+  }
+
+  .portfolio {
+    padding: 62px 35px;
+  }
+
+  .projects-filter button {
+    padding: 10px 4px;
+    font-size: 8px;
+  }
+
+
+  .experience .container {
+
+    padding: 0px 0;
+
+  }
+
+  .timeline-content h2 {
+    font-size: 15px;
+  }
+
+  .timeline-content p {
+    font-size: 14px;
+  }
+
+  .portfolio-box .itemBox {
+  
+    width: 322px;
+    height: 161px;
+  
+}
+.portfolio-box .itemBox img{
+  
+  margin: auto;
+  width: 100%;
+  height: 100%;
+
+}
+
+  .container-box {
+    grid-template-rows: repeat(6, 160px);
+    grid-template-columns: repeat(1, 1fr);
+
+
+  }
+
+  .pricing-table h1 {
+    font-size: 24px;
+  }
+
+  .pricing-table {
+    padding: 50px 19px;
+  }
+
+  .pricing-table-row {
+    width: 100%;
+    display: initial;
+  }
+
+  .pricing-table-row .basic-plan,
+  .pricing-table-row .professional-plan,
+  .pricing-table-row .premium-plan {
+    padding: 0px 22px 100px;
+    width: 100%;
+    margin: auto;
+    margin-top: 74px;
+  }
+
+  .pricing-table-row .premium-plan .plan-logo,
+  .pricing-table-row .professional-plan .plan-logo,
+  .pricing-table-row .basic-plan .plan-logo {
+    width: 50px;
+    height: 50px;
+    top: -32px;
+    left: 0px;
+  }
+
+  .pricing-table-row .plan-name {
+    width: 66%;
+  }
+
+  .pricing-table-row .professional-plan .plan-logo i,
+  .pricing-table-row .basic-plan .plan-logo i,
+  .pricing-table-row .premium-plan .plan-logo i {
+    font-size: 22px;
+  }
+
+  .testimonials h1 {
+    font-size: 24px;
+  }
+
+
+  .logo .indivisual-icon {
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+
+  .testimonials {
+    padding: 50px 20px;
+  }
+  
+
+  .clients-testimonial {
+    padding: 20px;
+    margin: 20px 4px 0;
+  }
+
+  .clients-testimonial .description p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .clients-testimonial .clients-testimonial-content {
+    display: block;
+  }
+
+  .clients-testimonial-content .img-block {
+    width: 35%;
+    height: 35%;
+    margin: auto;
+  }
+  .info-block {
+    padding-left: 0;
+    text-align: center;}
+
+  .logo {
+    padding: 20px 10px;
+    display: block;
+  }
+
+
+  .form {
+    text-align: center;
+
+
+  }
+
+  .form-container {
+    display: block;
+  }
+
+  .form h1 {
+    font-size: 21px;
+  }
+
+  .form-1 {
+    width: 98%;
+    margin-top: 40px;
+  }
+
+  .form-1 h4 {
+    font-size: 13px;
+  }
+
+  .form-2 {
+    margin: auto;
+    width: 100%;
+  }
+
+  .form {
+    padding: 50px 16px;
+  }
+
+  form button {
+    width: 145px;
+    margin-top: 10px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    line-height: 24px;
+  
+  }
+
+
+
+}
+
+
+
+/* smaller than 320px */
+
+
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media  (max-width:319px) {
+
+  h1{
+    font-size: 24px !important;
+  }
+
+  .col-1-sub-pg {
+    /* max-height: 100vh; */
+    width: 90%;
+    position: initial;
+    z-index: index none;
+    float: none;
+    margin: auto;
+
+  }
+
+  .person-details img {
+    width: 30%;
+  }
+
+  .circle-chart {
+    width: 45%;
+    height: 45%;
+  }
+
+
+  .social-icons {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 10px 0px;
+    position: initial;
+  }
+
+
+  .col-2-sub-pg {
+    /* margin-top: 120px; */
+    width: 100%;
+    background-color: #f0f0f6;
+    float: none;
+  }
+
+  .name-block .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .name-block {
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  .name-block h1 {
+    font-size: 21px;
+  }
+
+  .name-block p {
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  .name-block .buttons .btn-block {
+    width: 160px;
+    height: 44px;
+    font-size: 15px;
+    padding: 13px 0px;}
+
+  .about-me-block-details {
+    display: block;
+  }
+
+  .block-col-1 {
+    width: 100%;
+  }
+
+  .block-col-2 {
+    width: 100%;
+  }
+
+  .skill-col-1 h3,
+  .skill-col-2 h3 {
+
+    font-size: 12px;
+  }
+
+  .acievements {
+
+    display: block;
+  }
+
+
+  .indivisual-icon {
+    color: white;
+    padding-bottom: 35px;
+  }
+
+  .mini-block-col {
+    width: 100%;
+    display: block;
+  }
+
+  .about-me-block-person-picture {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-me-block-details .buttons {
+    text-align: center;
+  }
+
+  .about-me-block {
+    padding: 40px 40px;
+  }
+
+  .about-me-block-person-details p {
+    font-size: 12px;
+    padding: 20px 0 20px;
+    text-align: justify;
+    line-height: 21px;
+  }
+
+  .block-col-2 .Li1,
+  .block-col-1 .Li1 {
+
+    font-size: 11px;
+  }
+
+  .block-col-2 .Li2,
+  .block-col-1 .Li2 {
+
+    font-size: 10.2px;
+  }
+
+  .about-me-block {
+    padding: 40px 20px;
+}
+  .about-me-block-details .buttons .btn-block {
+    width: 143px;
+    height: 45px;
+    font-size: 14px;
+    padding: 15px 0px;
+    margin-top: 12px;
+  }
+
+  .about-me-block-person-details {
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #ffffff;
+}
+
+  .skill-details p {
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .skill-block {
+    padding: 70px 40px;
+  }
+
+  .skill-col {
+    width: 100%;
+    margin: 24px auto;
+    display: block;
+  }
+
+  .skill-col-1,
+  .skill-col-2 {
+    width: 100%;
+    margin-bottom: 33px;
+  }
+
+  .services {
+    padding: 50px 35px;
+  }
+
+  .indivisual-icon h4 {
+    font-size: 15px;
+
+  }
+
+  .indivisual-icon i {
+
+    font-size: 20px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .indivisual-icon .num {
+    font-size: 28px;
+  }
+
+
+
+  .grid-col {
+    margin: 30px auto;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(6, 184px);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-wrap h3 {
+    font-size: 16px;
+  }
+
+  .service-wrap p {
+    font-size: 13px;
+  }
+
+  .experience {
+    padding: 50px 20px;
+  }
+
+  .portfolio {
+    padding: 62px 35px;
+  }
+
+  .projects-filter button {
+    padding: 10px 4px;
+    font-size: 8px;
+  }
+
+
+  .experience .container {
+
+    padding: 0px 0;
+
+  }
+
+  .timeline-content h2 {
+    font-size: 15px;
+  }
+
+  .timeline-content p {
+    font-size: 12px;
+  }
+  .timeline {
+    width: 123%;
+    height: auto;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    position: relative;
+}
+
+  .portfolio-box .itemBox {
+    width: 228px;
+    height: 106px;
+}
+
+.portfolio-box .itemBox img{
+  
+  margin: auto;
+  width: 100%;
+  height: 100%;
+
+}
+
+  .container-box {
+    grid-template-rows: repeat(6, 160px);
+    grid-template-columns: repeat(1, 1fr);
+
+
+  }
+
+  .pricing-table h1 {
+    font-size: 24px;
+  }
+
+  .pricing-table {
+    padding: 50px 8px;
+  }
+  .pricing-table-row .professional-plan .plan-offer li span,.pricing-table-row .basic-plan .plan-offer li span,.pricing-table-row .premium-plan .plan-offer li span {
+  
+    font-size: 14px;
+}
+.plan-button a {
+  color: #ffff;
+  font-size: 14px;
+}
+
+  .pricing-table-row {
+    width: 100%;
+    display: initial;
+  }
+
+  .pricing-table-row .basic-plan,
+  .pricing-table-row .professional-plan,
+  .pricing-table-row .premium-plan {
+    padding: 0px 5px 100px;
+    width: 100%;
+    margin: auto;
+    margin-top: 74px;
+  }
+
+  .pricing-table-row .premium-plan .plan-logo,
+  .pricing-table-row .professional-plan .plan-logo,
+  .pricing-table-row .basic-plan .plan-logo {
+    width: 50px;
+    height: 50px;
+    top: -32px;
+    left: 0px;
+  }
+
+  .pricing-table-row .plan-name {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .pricing-table-row .professional-plan .plan-logo i,
+  .pricing-table-row .basic-plan .plan-logo i,
+  .pricing-table-row .premium-plan .plan-logo i {
+    font-size: 22px;
+  }
+
+  .testimonials h1 {
+    font-size: 24px;
+  }
+
+
+  .logo .indivisual-icon {
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+
+  .testimonials {
+    padding: 50px 20px;
+  }
+  
+
+  .clients-testimonial {
+    padding: 20px;
+    margin: 20px 4px 0;
+  }
+
+  .clients-testimonial .description p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .clients-testimonial .clients-testimonial-content {
+    display: block;
+  }
+
+  .clients-testimonial-content .img-block {
+    width: 35%;
+    height: 35%;
+    margin: auto;
+  }
+  .info-block {
+    padding-left: 0;
+    text-align: center;}
+
+  .logo {
+    padding: 20px 10px;
+    display: block;
+  }
+
+
+  .form {
+    text-align: center;
+
+
+  }
+
+  .form-container {
+    display: block;
+  }
+
+  .form h1 {
+    font-size: 21px;
+  }
+
+  .form-1 {
+    width: 98%;
+    margin-top: 40px;
+  }
+
+  .form-1 h4 {
+    font-size: 9px;
+
+  }
+
+  .form-2 {
+    margin: auto;
+    width: 100%;
+  }
+
+  .form {
+    padding: 50px 16px;
+  }
+
+  form button {
+    width: 145px;
+    margin-top: 10px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    line-height: 24px;
+  
+  }
+
+  .form-1 h4 {
+    padding-bottom: 21px;}
+
+  .footer p {
+    font-size: 10px;
+
+
+}
